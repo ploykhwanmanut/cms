@@ -1,0 +1,21 @@
+﻿<div class="navbar">
+    <div class="container">
+        <div style="height: 100px; background-color: red;">
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("สมัครสมาชิกเครือข่าย", "Index", "Login")</li>
+                <li>@Html.ActionLink("Profile", "Index", "Profile")</li>
+            </ul>
+        </div>
+        <div style="height: 100px; background-color: blue;">
+
+        </div>
+        @*@Html.ActionLink("Test 2 name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("หน้าหลัก", "Index", "Home")</li>
+                <li>@Html.ActionLink("แจ้งเบาะแสการทุจริต / เรื่องร้องเรียน", "Index", "Complaint")</li>
+                <li>@Html.ActionLink("ติดตามเรื่องร้องเรียน", "Index", "Tracking")</li>
+            </ul>
+        </div>
+    </div>
+</div>
